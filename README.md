@@ -166,32 +166,25 @@ npm test
 
 ## launchd setup
 
-1. Build the project:
+1. Install the LaunchAgent template:
 
 ```bash
-npm run build
+npm run install-launchagent
 ```
 
-2. Copy the LaunchAgent template:
-
-```bash
-cp launchd/local.red-alert-slack.plist ~/Library/LaunchAgents/local.red-alert-slack.plist
-```
-
-3. Load it:
+2. Load it:
 
 ```bash
 launchctl load ~/Library/LaunchAgents/local.red-alert-slack.plist
 ```
 
-4. Restart after config changes:
+3. Restart after config changes:
 
 ```bash
+npm run install-launchagent
 launchctl unload ~/Library/LaunchAgents/local.red-alert-slack.plist
 launchctl load ~/Library/LaunchAgents/local.red-alert-slack.plist
 ```
-
-If your checkout path differs from `/Users/denis/projects/red-alert-slack`, update the plist paths first.
 
 ## Files
 

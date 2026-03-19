@@ -7,13 +7,12 @@
 
     <key>ProgramArguments</key>
     <array>
-      <string>/usr/bin/env</string>
-      <string>node</string>
-      <string>/Users/denis/projects/red-alert-slack/dist/index.js</string>
+      <string>__NODE_PATH__</string>
+      <string>__PROJECT_DIR__/dist/index.js</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/denis/projects/red-alert-slack</string>
+    <string>__PROJECT_DIR__</string>
 
     <key>RunAtLoad</key>
     <true/>
@@ -22,10 +21,9 @@
     <true/>
 
     <key>StandardOutPath</key>
-    <string>/Users/denis/projects/red-alert-slack/red-alert-slack.log</string>
+    <string>__PROJECT_DIR__/red-alert-slack.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/denis/projects/red-alert-slack/red-alert-slack.error.log</string>
+    <string>__PROJECT_DIR__/red-alert-slack.error.log</string>
   </dict>
 </plist>
-
