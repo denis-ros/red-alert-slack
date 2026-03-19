@@ -166,6 +166,8 @@ npm test
 
 ## launchd setup
 
+Use this if you want the service to start automatically when you log in to macOS.
+
 1. Install the LaunchAgent template:
 
 ```bash
