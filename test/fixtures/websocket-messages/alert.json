@@ -1,0 +1,10 @@
+{
+  "type": "ALERT",
+  "data": {
+    "notificationId": "alert-123",
+    "threat": 0,
+    "isDrill": false,
+    "cities": ["תל אביב - מרכז העיר", "חיפה - מפרץ"]
+  }
+}
+

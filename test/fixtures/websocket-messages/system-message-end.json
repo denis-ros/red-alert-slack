@@ -1,0 +1,9 @@
+{
+  "type": "SYSTEM_MESSAGE",
+  "data": {
+    "titleHe": "עדכון פיקוד העורף",
+    "bodyHe": "האירוע הסתיים באזורים אלה",
+    "citiesIds": [305]
+  }
+}
+
